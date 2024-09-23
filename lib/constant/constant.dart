@@ -22,7 +22,8 @@ class Constant {
       ),
     );
   }
-    static void showLongToast(String msg) {
+
+  static void showLongToast(String msg) {
     Fluttertoast.showToast(
       msg: msg,
       toastLength: Toast.LENGTH_LONG,
